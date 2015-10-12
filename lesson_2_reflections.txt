@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When initializing a repository , Git create hidden folder .git that contains config file , object repository and other files/repositories
+	At first place , Git will have no commits , running the "git log" commande will throw an error.
+	
+
+
+
