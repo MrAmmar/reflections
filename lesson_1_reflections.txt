@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced ?
+The diff between 2 vers of a file can be very helpful , 
+you can easily detect typos that are the main reason for many bugs.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+keeping an eye on changes yu made on yur file , by browsing its entire history ,
+make you learn and stay aware of your old bugs , also tracking your project progress
+help you more to take good and reasonable decisions, 
+without throwing yourself in an infinty loop of errors and bugs.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+You chose when to commit , you win or you lose 
+Pros : sometimes , it's up to you to understand and find when some real changes are made
+	   you can spend one hour working without making some logical, intersesting change 
+	   so being automatically saved , they will have no purpose on project's progress
+	   either on history log
+
+Cons : When you're working for a long period ( which is not recommanded) , you may 
+	   transcend to another world full of codes and articles , and you
+	   may even forget to commit and save your radical ,situation changing works
+	   so the " automatically saved " option , will be your savior this time.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+i start liking the Git philosophy
+saving multiple files in one commit is a smart move
+taking an exemple of adding a button to an android project 
+the button has its layout part written in XML file 
+but also the other part in JAVA class 
+which means that changes were made in different parts for one single item (Button).
+
+How can you use the commands git log and git diff to view the history of files?
+git log show a list of the recent commits with information about the latters , 
+including commit's ID 
+git diff followed by two commits IDs will show the difference between two versions of the
+code at those commits , including number of line adde and deleted 
+we can edit the view colors to have a clear and readable text by the command below 
+git config --global color.ui auto
+
+How might using version control make you more confident to make changes that could break something?
+when coding blindly may take few minutes to get something done , also to get some rubish buggy code that 
+can't be fixed just after hours of hair pulling
+while version control , i make steps with confidence , it's called Deliberate Practice
+
+Now that you have your workspace set up, what do you want to try using Git for?
+i'll start using git for :
+	cloning git projects
+	comparing two files 
+	checkout commits
+	editing txt files using sublime Text 3 from git
+
+
