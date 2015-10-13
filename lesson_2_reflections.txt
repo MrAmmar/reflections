@@ -30,6 +30,13 @@ What are some situations when branches would be helpful in keeping your history 
 	like chang the language , or trying some new features that my change the project's concept
 	or creating a backup . That's were branches can be useful 
 	to keep the work tracked and well organized.
+
+How do the diagrams help you visualize the branch structure?
+
+	it's about the reliability , the diagrams help keep track on commits and their parents
+	so i can detect parentless commits who are vulnerable to be lost 
+	i can create a new branch based on a commit using the shortcut command
+		git checkout -b new_branch_name
 	
 
 
