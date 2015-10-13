@@ -1,7 +1,35 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-	When initializing a repository , Git create hidden folder .git that contains config file , object repository and other files/repositories
+	When initializing a repository , Git create hidden folder .git that contains config file ,
+	object repository and other files/repositories.
 	At first place , Git will have no commits , running the "git log" commande will throw an error.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area is an intermediate between WorkingPlace and Repository 
+	when i chose wat files to track , they moved to the stagine area ,then I can create a commit
+	based on that last one.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Committing procedure go through three stages :
+	- Making changes in the Working Directory (WD)
+	- Adding those changes to the Staging Area (SA)
+	- Firing a commit (changes added to the Repository (R))
+	When i make a change and it seems like a logical one that deserves a commit 
+	then i move it to the SA using this command :
+			git add changedfile.format
+	Making sure that the SA contains my target changedfile by comparing
+	my WD and SA using this command :
+			git diff --staged
+	and finally committing my change (moving from SA to R)
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Working on a project , at some points i may want to make some radical changes,
+	like chang the language , or trying some new features that my change the project's concept
+	or creating a backup . That's were branches can be useful 
+	to keep the work tracked and well organized.
 	
 
 
