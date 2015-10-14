@@ -38,6 +38,12 @@ How do the diagrams help you visualize the branch structure?
 	i can create a new branch based on a commit using the shortcut command
 		git checkout -b new_branch_name
 	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+	When we merge two branches branch1 into branch2 , the result will be branch2 containing all the commits from
+	both branches sorted by timestamp
+		Merging command :
+		git merge branch2 branch1
+	Git is based on commits , so that's whay the "new" branch is represented as a new commit 
 
 
