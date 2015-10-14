@@ -46,4 +46,15 @@ What is the result of merging two branches together? Why do we represent it in t
 		git merge branch2 branch1
 	Git is based on commits , so that's whay the "new" branch is represented as a new commit 
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging can be efficacious when each branch has her own commit ,
+	differents paths.
+	But when it comes to having different versions of a file in both branches,
+	that's where it becomes a bit slower , eventhough it still bringing conflicts to my
+	attention.
+
+	Merging manually is more secure but it's recommanded for all times
+	it takes more time and effort
+
 
