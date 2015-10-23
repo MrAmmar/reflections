@@ -36,7 +36,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The remote state give details about your project progress at that time, 
+    even if you're working offline 
+    You can easily take decisions what commit to push without having conflits.
+    (To be improved*).
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
