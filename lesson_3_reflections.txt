@@ -38,13 +38,27 @@ stored locally?
 
     The remote state give details about your project progress at that time, 
     even if you're working offline 
-    You can easily take decisions what commit to push without having conflits.
+    You can easily take decisions what commit to push without having conflicts.
     (To be improved*).
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Previously , i've been collaborating with my co-workers using Dropbox ,
+    every day I should keep in mind to upload my works , leaving a notice about
+    what changes i've made , i used to do that but it wasn't easy or even useful.
+
+    What could be easy : 
+    	Based on my knwowledge, the easiest way to collaborate till now 
+    	is GitHub, i started using it, the day i've learnt it.
+
+	What could be harder : 
+		Branches keeps changes tracked and organized , and easy to access from any point
+		Neither uploading the whole work nor only the changes you've made are useful, so 
+		it's such a waste of time.
+
+
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
