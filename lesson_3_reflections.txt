@@ -63,4 +63,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When working on a multi-contributors project , each change has an impact on the latter,
+    So when i add or delete some features (e.g changing the oil and other ingredients ),
+    i need to check the others changes before pushing mines and fix all conflicts that could be triggered ,
+    that's why working on a separate branch is safer and more organized.
